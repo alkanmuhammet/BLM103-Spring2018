@@ -35,7 +35,7 @@ public class Soru5 {
             for (int k = 1; k <= 6 - i; k++) {
                 System.out.print("  ");
             }
-            for (int j = 1; j <= i; j++) {
+            for (int j = i; j >= 1; j--) {
                 System.out.print(j + " ");
             }
             System.out.println();
